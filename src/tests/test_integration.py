@@ -814,7 +814,7 @@ def test_overload_nested_function_valid(env):
         from typing import overload
 
         def function_with_nesting():
-            """Adding a docstring to a function."""
+            """Add a docstring to a function."""
             @overload
             def overloaded_func(a: int) -> str:
                 ...
